@@ -63,13 +63,18 @@ void roster::add(string studentID, string firstName, string lastName, string ema
 //E3b If the student ID does not exist, the function prints an error message...
 void roster::printRemove(string studentID)
 {
+	bool isStudentIDExist = false;
 	for (int i = 0; i < classRosterArray.size(); i++)
 	{
 		if (classRosterArray.at(i)->getStudentID() == studentID)
 		{
-			classRosterArray.erase(classRosterArray.begin() + i);
+			classRosterArray.erase(classRosterArray.begin() + i);			
 			return;
-		}
+		}		
+	}
+	if (isStudentIDExist == false)
+	{//E3b. Remove Function-print------ message show studentID has been removed
+		cout << "\n  Student ID of " << studentID << " has been removed." << endl;
 	}
 
 }

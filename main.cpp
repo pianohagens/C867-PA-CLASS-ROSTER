@@ -36,16 +36,16 @@ int main()
 
     cout << "\n  Remove A3:  " << endl;
     cout << " ---------------------------------------------------------------------------------------------------------------------------------------" << endl;
-    classRoster->printRemove("A3");
+    classRoster->printRemove("A3"); 
     classRoster->printByDegreeProgram(SOFTWARE);
+    
 
-
-    classRoster->printRemove("A3");
+    
     cout << "\n  Remove A3 again: " << endl;
     cout << " ---------------------------------------------------------------------------------------------------------------------------------------" << endl;
     classRoster->printAll();
+    classRoster->printRemove("A3");//E3b. Remove Function
 
-    cout << "\n  Student ID of A3 was not found \n" << endl;
     return 0;
 
 }
