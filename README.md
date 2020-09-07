@@ -1,4 +1,5 @@
-## C867-Performance-Assessment_CLASS-ROSTER
+### C867-Performance-Assessment
+## CLASS-ROSTER
 ### COMPETENCIES
     4048.2.1 : Introduction to Programming
     The graduate applies fundamental programming concepts in a specific programming environment.
