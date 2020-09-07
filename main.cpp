@@ -6,7 +6,7 @@
 
 int main()
 {   //F1. Print out to the screen, via your application, the course title, the programming language used, your WGU student ID, and your name.
-	std::cout << "  Course Title: C867_Scripting and Programming Applications\n  Programming Language: C++ \n  WGU Student ID: #000956040 \n  Name: Piano Hhagens\n\n";
+	std::cout << "  Course Title: C867_Scripting and Programming Applications\n  Programming Language: C++ \n  WGU Student ID: #000000040 \n  Name: Piano Hhagens\n\n";
 
 
 	//F2.  Create an instance of the Roster class called classRoster.
