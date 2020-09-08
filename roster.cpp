@@ -74,7 +74,7 @@ void roster::printRemove(string studentID)
 	}
 	if (isStudentIDExist == false)
 	{//E3b. Remove Function-print------ message show studentID has been removed
-		cout << "\n  Student ID of " << studentID << " has been removed." << endl;
+		cout << "\n  The student with the ID: " << studentID << " was not found." << endl;
 	}
 
 }
